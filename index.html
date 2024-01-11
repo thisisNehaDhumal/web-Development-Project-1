@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> GYM Pricing </title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #000000;
+            color: #ecf0f1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .pricing-card {
+            width: 300px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            margin: 15px;
+        }
+
+        .pricing-card:hover {
+            transform: scale(1.05);
+        }
+
+        .pricing-card header {
+            background-color: #138808;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .price {
+            font-size: 2em;
+            text-align: center;
+            margin: 20px 0;
+            color: #0a9c2a;
+        }
+
+        .features {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        .features li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1> GYM Pricing</h1>
+    </header>
+
+    <div class="container">
+        <div class="pricing-table">
+            <div class="pricing-card">
+                <header>Basic Plan</header>
+                <div class="price">$10/month</div>
+                <ul class="features">
+                    <li>~ Weight training</li>
+                
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <header>Standard Plan</header>
+                <div class="price">$20/month</div>
+                <ul class="features">
+                    <li>~ Weight traning</li>
+                    <li>~ cardio</li>
+                </ul>
+            </div>
+
+            <div class="pricing-card">
+                <header>Premium Plan</header>
+                <div class="price">$30/month</div>
+                <ul class="features">
+                    <li>~ Weight traning</li>
+                    <li>~ cardio</li>
+                    <li>~ Diet paln</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
